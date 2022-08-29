@@ -15,16 +15,14 @@ Performing analysis on Louise Kickstarter to uncover various trends
 ## Analysis and Challenges
 
 *Basic structure </br>
-
-    The overview of the dataset is very boring and unorgainzed.We performed some basic formatting steps to make the tabular data look more presentable and easy to read.
+The overview of the dataset is very boring and unorgainzed.We performed some basic formatting steps to make the tabular data look more presentable and easy to read.
         1.The first operation we performed was to auto-adjust width and height of the cells to make the data fit in the cell and easily readable.
-        
-     
+            
 *Formatting the spreadsheet</br>
 
     1.The normal cell widht does not capture the entire value of currency amount in spreadsheet.So,we changed the goal and pledged coloumn data type to "scientific"".</br>
     
-    2.We used the frrezing feature of excel to lock top row so that it is always displayed no matter what part of sheet we sre looking into.</br>
+    2.We used the freezing feature of excel to lock top row so that it is always displayed no matter what part of sheet we sre looking into.</br>
     
     3.  There are four differnt types of outcomes i.e successfull,canceled,live and failed.We performed some basic conditional formatting to chage the colour of specific cells.For example the successfull camaping cell outcome is colour filled with green and dark green text color.The challange i faced while performing this task was the text spelling.Text should ne exact match.For exapmple i entered "cancelled" in text box and it is spelled "cancel" in spreadsheet.</br>
     
