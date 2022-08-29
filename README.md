@@ -20,6 +20,7 @@ The overview of the dataset is very boring and unorgainzed.We performed some bas
         
 ### Formatting the spreadsheet 
 - The normal cell widht does not capture the entire value of currency amount in spreadsheet.So,we changed the goal and pledged coloumn data type to "scientific"".
+![scientific](https://github.com/vikas0809/kickstarter-analysis/blob/e4b891d7f5d708a6a04d7902ac8c48fbac681ba1/Resources/Additional%20Resources/formattinf%20scientific.png).
 
 - We used the freezing feature of excel to lock top row so that it is always displayed no matter what part of sheet we sre looking into.
 
