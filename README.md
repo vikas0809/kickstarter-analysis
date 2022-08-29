@@ -15,7 +15,8 @@ By the end of this project, we will see various trends and key factors which are
 ### Basic structure 
 The overview of the dataset is very boring and unorgainzed.We performed some basic formatting steps to make the tabular data look more presentable and easy to read.
 - The first operation we performed was to auto-adjust width and height of the cells to make the data fit in the cell and easily readable.
-Resources/Additional Resources/auto fit cell sizze and width.png            
+
+https://github.com/vikas0809/kickstarter-analysis/blob/a20b34b30da823f3cfa90e1f8a49c8ea4b5d46b4/Resources/Additional%20Resources/auto%20fit%20cell%20sizze%20and%20width.png         
 ### Formatting the spreadsheet 
 - The normal cell widht does not capture the entire value of currency amount in spreadsheet.So,we changed the goal and pledged coloumn data type to "scientific"".
 
