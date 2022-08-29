@@ -101,7 +101,6 @@ Third issue i faced was while adding conditions in COUNTIFS function.For events 
     
 --Deember is the month with least percentage of successfull campaigns.Also,this is the slowest month for our campaign period.Louise did least ie. 75 camapigns in month of December.
 
-
 - What can you conclude about the Outcomes based on Goals?
 
 Following are the outcomes of the analysis
@@ -114,22 +113,24 @@ Following are the outcomes of the analysis
 
 -- The most number of project goal range from 1000-4999.
 
+
+
+
 - What are some limitations of this dataset?
 
 
 
 - What are some other possible tables and/or graphs that we could create?
 
-### Average number of backer counts by country
+
+-- Average number of backer counts by country
 
 
-### Average Donation by Category
+-- Average Donation by Category
 
 
-### Number of camapaigns by Category
+-- Number of camapaigns by Category
 
 
-### Different outcomes based on categories
+-- Different outcomes based on categories
 
-
-###
