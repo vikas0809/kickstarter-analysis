@@ -66,10 +66,10 @@ There were no issues that i ran into while performing this task.If we break down
 ### Analysis of Outcomes Based on Goals
 
 We divided the goal amount into differnt slabs ranging from "Les than 1000" to "greater than 50000".We created calculated coloum which counts number of specific item i.e count of successull,failed and canceled projects under specific criteria.
-For goal amount less than 1000,is successfull and is category plays
-            =COUNTIFS(Kickstarter!D:D,"<1000",Kickstarter!F:F,"successful",Kickstarter!R:R,"plays")
-For goal amount between 5000-9999,is successfull and is category plays
-            =COUNTIFS(Kickstarter!D:D,">=5000",Kickstarter!D:D,"<=9999",Kickstarter!F:F,"successful",Kickstarter!R:R,"plays")
+For goal amount less than 1000,is successfull and is category plays.</br>
+        =COUNTIFS(Kickstarter!D:D,"<1000",Kickstarter!F:F,"successful",Kickstarter!R:R,"plays")
+For goal amount between 5000-9999,is successfull and is category plays.</br>
+        =COUNTIFS(Kickstarter!D:D,">=5000",Kickstarter!D:D,"<=9999",Kickstarter!F:F,"successful",Kickstarter!R:R,"plays")
         
 After that we calculated the percenatge of events and created one line chart to represent the trend.
         
@@ -78,8 +78,8 @@ The issue that i ran into was using COUNTIF function.This function does not work
 
 Another issue was that criteria has to be included in "".It is very easy to get confused and code wont return the right result.
 
-Third issue i faced was while adding conditions in COUNTIFS function.For events with goal >= 50000,i missed = and it didnt count all the evennts with goal of 50,000.
-            =COUNTIFS(Kickstarter!D:D,">=50000",Kickstarter!F:F,"successful",Kickstarter!R:R,"plays")
+Third issue i faced was while adding conditions in COUNTIFS function.For events with goal >= 50000,i missed = and it didnt count all the evennts with goal of 50,000.</br>
+        =COUNTIFS(Kickstarter!D:D,">=50000",Kickstarter!F:F,"successful",Kickstarter!R:R,"plays")
 
 
 
