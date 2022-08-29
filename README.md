@@ -87,7 +87,7 @@ For goal amount between 5000-9999,is successfull and is category plays.
         
 After that we calculated the percenatge of events and created one line chart to represent the trend.
 
-[otcomevsgoals](https://github.com/vikas0809/kickstarter-analysis/blob/d83f3d9e6be336a7c4007d9e3c575e9b630cf642/Resources/Outcomes_vs_Goals.png)
+![outcomevsgoals](https://github.com/vikas0809/kickstarter-analysis/blob/d83f3d9e6be336a7c4007d9e3c575e9b630cf642/Resources/Outcomes_vs_Goals.png)
 
 
 The issue that i ran into was using COUNTIF function.This function does not work for multiple criterias.We had to use COUNTIFS for that.
