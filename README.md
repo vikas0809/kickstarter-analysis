@@ -20,9 +20,12 @@ The overview of the dataset is very boring and unorgainzed.We performed some bas
         
 ### Formatting the spreadsheet 
 - The normal cell widht does not capture the entire value of currency amount in spreadsheet.So,we changed the goal and pledged coloumn data type to "scientific"".
-![scientific](https://github.com/vikas0809/kickstarter-analysis/blob/e4b891d7f5d708a6a04d7902ac8c48fbac681ba1/Resources/Additional%20Resources/formattinf%20scientific.png).
 
-- We used the freezing feature of excel to lock top row so that it is always displayed no matter what part of sheet we sre looking into.
+![scientific](https://github.com/vikas0809/kickstarter-analysis/blob/e4b891d7f5d708a6a04d7902ac8c48fbac681ba1/Resources/Additional%20Resources/formattinf%20scientific.png)
+
+- We used the freezing feature of excel to lock top row so that it is always displayed no matter what part of sheet we are looking into.
+
+![freezepanes](https://github.com/vikas0809/kickstarter-analysis/blob/d83f3d9e6be336a7c4007d9e3c575e9b630cf642/Resources/Additional%20Resources/freezepaines.png)
 
 - There are four differnt types of outcomes i.e successfull,canceled,live and failed.We performed some basic conditional formatting to chage the colour of specific cells.For example the successfull camaping cell outcome is colour filled with green and dark green text color.The challange i faced while performing this task was the text spelling.Text should ne exact match.For exapmple i entered "cancelled" in text box and it is spelled "cancel" in spreadsheet.
     
@@ -62,11 +65,17 @@ For that we use,Text to column function under the Data tab in excel.
 
 As per requirement,we did analysis on outcome based om when they are launched in a particular year.We created a pivot table to show total of outcomes divided into different categories by month sorted by Parent Caregory.This particular analysis is for theatre events.
 
+![theatrepivottable](https://github.com/vikas0809/kickstarter-analysis/blob/d83f3d9e6be336a7c4007d9e3c575e9b630cf642/Resources/Additional%20Resources/Theatre%20outcome%20pivottable.png)
+
 There were no issues that i ran into while performing this task.If we break down requirements into different parts before making our pivot table,things gets super easy.But there was a confusion as the requirement in assignment was not clear.There are all steps listed in order except to filter out live events before we make a pivotchart.A possible issue that someone can ran into is the date hierarchy.Excel automatically coverts the date in to hierarechy.We have to remove or rearrange that to get the desired results.
+
+![linecharttheatre](https://github.com/vikas0809/kickstarter-analysis/blob/d83f3d9e6be336a7c4007d9e3c575e9b630cf642/Resources/Theatre_Outcome_vs_Launch.png)
     
 ### Analysis of Outcomes Based on Goals
 
 We divided the goal amount into differnt slabs ranging from "Les than 1000" to "greater than 50000".We created calculated coloum which counts number of specific item i.e count of successull,failed and canceled projects under specific criteria.
+
+![calculatedoutcomes](https://github.com/vikas0809/kickstarter-analysis/blob/d83f3d9e6be336a7c4007d9e3c575e9b630cf642/Resources/Additional%20Resources/calculated%20otcome%20based%20on%20lauch%20date.png)
 
 For goal amount less than 1000,is successfull and is category plays.
 
@@ -77,7 +86,9 @@ For goal amount between 5000-9999,is successfull and is category plays.
         =COUNTIFS(Kickstarter!D:D,">=5000",Kickstarter!D:D,"<=9999",Kickstarter!F:F,"successful",Kickstarter!R:R,"plays")
         
 After that we calculated the percenatge of events and created one line chart to represent the trend.
-        
+
+[otcomevsgoals](https://github.com/vikas0809/kickstarter-analysis/blob/d83f3d9e6be336a7c4007d9e3c575e9b630cf642/Resources/Outcomes_vs_Goals.png)
+
 
 The issue that i ran into was using COUNTIF function.This function does not work for multiple criterias.We had to use COUNTIFS for that.
 
@@ -103,7 +114,7 @@ Third issue i faced was while adding conditions in COUNTIFS function.For events 
 
 Following are the outcomes of the analysis
 
-- There is no cacelled event for category "plays".
+- There is no cancelled event for category "plays".
 
 - There is 0% success rate in camapaings where the goal amount is between 45000-49999.
 
@@ -122,12 +133,17 @@ Following are the outcomes of the analysis
 
 - Average number of backer counts by country
 
+![backercountavg](https://github.com/vikas0809/kickstarter-analysis/blob/d83f3d9e6be336a7c4007d9e3c575e9b630cf642/Resources/Additional%20Resources/Average%20Backer%20Count%20by%20Country.png)
 
 - Average Donation by Category
 
+![avgdonation](https://github.com/vikas0809/kickstarter-analysis/blob/d83f3d9e6be336a7c4007d9e3c575e9b630cf642/Resources/Additional%20Resources/Average_Donation_By-Category.png)
 
 - Number of camapaigns by Category
 
+![campaignbycategory](https://github.com/vikas0809/kickstarter-analysis/blob/d83f3d9e6be336a7c4007d9e3c575e9b630cf642/Resources/Additional%20Resources/category_distribution.png)
 
 - Different outcomes based on categories
+
+![catoutcome](https://github.com/vikas0809/kickstarter-analysis/blob/d83f3d9e6be336a7c4007d9e3c575e9b630cf642/Resources/Additional%20Resources/Outcomes_based_on_ParentCategory.png)
 
