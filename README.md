@@ -14,14 +14,14 @@ By the end of this project, we will see various trends and key factors which are
 
 ### Basic structure 
 The overview of the dataset is very boring and unorgainzed.We performed some basic formatting steps to make the tabular data look more presentable and easy to read.
-        1.The first operation we performed was to auto-adjust width and height of the cells to make the data fit in the cell and easily readable.
+- The first operation we performed was to auto-adjust width and height of the cells to make the data fit in the cell and easily readable.
             
 ### Formatting the spreadsheet 
-1.The normal cell widht does not capture the entire value of currency amount in spreadsheet.So,we changed the goal and pledged coloumn data type to "scientific"".
+- The normal cell widht does not capture the entire value of currency amount in spreadsheet.So,we changed the goal and pledged coloumn data type to "scientific"".
 
-2.We used the freezing feature of excel to lock top row so that it is always displayed no matter what part of sheet we sre looking into.
+- We used the freezing feature of excel to lock top row so that it is always displayed no matter what part of sheet we sre looking into.
 
-3.There are four differnt types of outcomes i.e successfull,canceled,live and failed.We performed some basic conditional formatting to chage the colour of specific cells.For example the successfull camaping cell outcome is colour filled with green and dark green text color.The challange i faced while performing this task was the text spelling.Text should ne exact match.For exapmple i entered "cancelled" in text box and it is spelled "cancel" in spreadsheet.
+- There are four differnt types of outcomes i.e successfull,canceled,live and failed.We performed some basic conditional formatting to chage the colour of specific cells.For example the successfull camaping cell outcome is colour filled with green and dark green text color.The challange i faced while performing this task was the text spelling.Text should ne exact match.For exapmple i entered "cancelled" in text box and it is spelled "cancel" in spreadsheet.
     
 ### Data conversion.</br>
 
@@ -35,17 +35,17 @@ The challange was second part in this as i was confused that why i am not gettin
 
 After the formatting and orgainizing,now it is time to crunch some number and create some calculated columns which are required to perform our analysis.
 
-1.Average Donation:Average donation is calculated ny dividing pledge amount by backer count.We also used ROUND function to round off result by 2 decimal places.
+- Average Donation:Average donation is calculated ny dividing pledge amount by backer count.We also used ROUND function to round off result by 2 decimal places.
 
         =IFERROR(ROUND(E2/L2,2),0)
         
 The challange in this task was divide by zero error.There are some events with 0 backers,so ther result was giving #DIV/0!.We used IFERROR function to give us 0 when the error encounters.
         
-2.Extracting Year from Date:We created new column for Year.We extraced year from Date started using YEAR function.
+- Extracting Year from Date:We created new column for Year.We extraced year from Date started using YEAR function.
 
         =YEAR(S3)    
         
-3.Total Duration of Campaign:We created another coloumn which gives us total duation of the campaign which is differnce between Date Started and Date Ended coloumn.For that,we used DATEDIF function to get number of days for which the campaign ran.
+- Total Duration of Campaign:We created another coloumn which gives us total duation of the campaign which is differnce between Date Started and Date Ended coloumn.For that,we used DATEDIF function to get number of days for which the campaign ran.
 
         =DATEDIF(S2,T2,"d")        
         
@@ -59,19 +59,17 @@ For that we use,Text to column function under the Data tab in excel.
 
 As per requirement,we did analysis on outcome based om when they are launched in a particular year.We created a pivot table to show total of outcomes divided into different categories by month sorted by Parent Caregory.This particular analysis is for theatre events.
 
-
-
 There were no issues that i ran into while performing this task.If we break down requirements into different parts before making our pivot table,things gets super easy.But there was a confusion as the requirement in assignment was not clear.There are all steps listed in order except to filter out live events before we make a pivotchart.A possible issue that someone can ran into is the date hierarchy.Excel automatically coverts the date in to hierarechy.We have to remove or rearrange that to get the desired results.
     
 ### Analysis of Outcomes Based on Goals
 
 We divided the goal amount into differnt slabs ranging from "Les than 1000" to "greater than 50000".We created calculated coloum which counts number of specific item i.e count of successull,failed and canceled projects under specific criteria.
 
-For goal amount less than 1000,is successfull and is category plays.</br>
+For goal amount less than 1000,is successfull and is category plays.
 
         =COUNTIFS(Kickstarter!D:D,"<1000",Kickstarter!F:F,"successful",Kickstarter!R:R,"plays")
         
-For goal amount between 5000-9999,is successfull and is category plays.</br>
+For goal amount between 5000-9999,is successfull and is category plays.
 
         =COUNTIFS(Kickstarter!D:D,">=5000",Kickstarter!D:D,"<=9999",Kickstarter!F:F,"successful",Kickstarter!R:R,"plays")
         
@@ -82,13 +80,10 @@ The issue that i ran into was using COUNTIF function.This function does not work
 
 Another issue was that criteria has to be included in "".It is very easy to get confused and code wont return the right result.
 
-Third issue i faced was while adding conditions in COUNTIFS function.For events with goal >= 50000,i missed = and it didnt count all the evennts with goal of 50,000.</br>
+Third issue i faced was while adding conditions in COUNTIFS function.For events with goal >= 50000,i missed = and it didnt count all the evennts with goal of 50,000.
 
         =COUNTIFS(Kickstarter!D:D,">=50000",Kickstarter!F:F,"successful",Kickstarter!R:R,"plays")
         
-
-
-
 ## Results
 
 ### What are two conclusions you can draw about the Outcomes based on Launch Date?
@@ -113,10 +108,9 @@ Following are the outcomes of the analysis
 
 - The most number of project goal range from 1000-4999.
 
-
-
-
 ### What are some limitations of this dataset?
+
+
 
 
 
