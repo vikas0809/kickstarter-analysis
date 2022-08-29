@@ -91,46 +91,46 @@ Third issue i faced was while adding conditions in COUNTIFS function.For events 
 
 ## Results
 
-- What are two conclusions you can draw about the Outcomes based on Launch Date?
+### What are two conclusions you can draw about the Outcomes based on Launch Date?
 
--- We noticed that most successfull month in entire campaign is May with 111 camapaigns followed by June with 100 successfull outcomes and July at third place with 87 total oucomes.We can say that summer is the most succesfull time of the year to run campaigns.
+- We noticed that most successfull month in entire campaign is May with 111 camapaigns followed by June with 100 successfull outcomes and July at third place with 87 total oucomes.We can say that summer is the most succesfull time of the year to run campaigns.
     
--- Our top 3 months with sucessfull campaign also tops in total number of events respectively executed by Louise.
+- Our top 3 months with sucessfull campaign also tops in total number of events respectively executed by Louise.
     
--- Another thing worth noticing is month of October.There is no cancelled campaignn in month of October.
+- Another thing worth noticing is month of October.There is no cancelled campaignn in month of October.
     
---Deember is the month with least percentage of successfull campaigns.Also,this is the slowest month for our campaign period.Louise did least ie. 75 camapigns in month of December.
+- Deember is the month with least percentage of successfull campaigns.Also,this is the slowest month for our campaign period.Louise did least ie. 75 camapigns in month of December.
 
-- What can you conclude about the Outcomes based on Goals?
+### What can you conclude about the Outcomes based on Goals?
 
 Following are the outcomes of the analysis
 
--- There is no cacelled event for category "plays".
+- There is no cacelled event for category "plays".
 
--- There is 0% success rate in camapaings where the goal amount is between 45000-49999.
+- There is 0% success rate in camapaings where the goal amount is between 45000-49999.
 
--- Sucess rate is 50-50 in campaings where goal is between 15000-19999.
+- Sucess rate is 50-50 in campaings where goal is between 15000-19999.
 
--- The most number of project goal range from 1000-4999.
-
-
-
-
-- What are some limitations of this dataset?
+- The most number of project goal range from 1000-4999.
 
 
 
-- What are some other possible tables and/or graphs that we could create?
+
+### What are some limitations of this dataset?
 
 
--- Average number of backer counts by country
+
+### What are some other possible tables and/or graphs that we could create?
 
 
--- Average Donation by Category
+- Average number of backer counts by country
 
 
--- Number of camapaigns by Category
+- Average Donation by Category
 
 
--- Different outcomes based on categories
+- Number of camapaigns by Category
+
+
+- Different outcomes based on categories
 
