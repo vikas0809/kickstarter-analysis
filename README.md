@@ -4,13 +4,13 @@ Performing analysis on Louise Kickstarter to uncover various trends
 
 ## Overview of Project
 
-    This project performs the data and visual analysis of a crowdfunding project run by up-and-coming playwright, Louise. With a very limited budget of $10,000, she is hesitant about her first fundraising campaign. So, we are helping her to crunch some number and visualize the various trends which help Louise to make her very important decisions to make her campaign successful.
+This project performs the data and visual analysis of a crowdfunding project run by up-and-coming playwright, Louise. With a very limited budget of $10,000, she is hesitant about her first fundraising campaign. So, we are helping her to crunch some number and visualize the various trends which help Louise to make her very important decisions to make her campaign successful.
 
-    She ran in total of 4114 campaigns in 21 different countries. The response was amazing, she had very successful campaign with total of 2185 campaign. There were some unsuccessful campaigns which were 1530 in total. United States is the country where she ran her most of campaigns.
+She ran in total of 4114 campaigns in 21 different countries. The response was amazing, she had very successful campaign with total of 2185 campaign. There were some unsuccessful campaigns which were 1530 in total. United States is the country where she ran her most of campaigns.
 
-    The main analysis tool we used is Microsoft Excel. Excel is a powerful tool to perform wide range of data visualization operations.
+The main analysis tool we used is Microsoft Excel. Excel is a powerful tool to perform wide range of data visualization operations.
 
-    By the end of this project, we will see various trends and key factors which are visualized by various bar-charts, line-charts and pivot tables to analyze the campaign.
+By the end of this project, we will see various trends and key factors which are visualized by various bar-charts, line-charts and pivot tables to analyze the campaign.
 
 ## Analysis and Challenges
 
