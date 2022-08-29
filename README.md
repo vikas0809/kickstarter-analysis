@@ -54,7 +54,15 @@ Performing analysis on Louise Kickstarter to uncover various trends
         
 ### Analysis of Outcomes Based on Launch Date.
 
-
+    As per requirement,we did analysis on outcome based om when they are launched in a particular year.We created a pivot table to show total of outcomes divided into different categories by month sorted by Parent Caregory.
+    
+    *We noticed that most successfull month in entire campaign is May with 111 camapaigns followed by June with 100 successfull outcomes and July at third place with 87 total oucomes.We can say that summer is the most succesfull time of the year to run campaigns.
+    
+    *Our top 3 months with sucessfull campaign also tops in total number of events respectively executed by Louise.
+    
+    *Another thing worth noticing is month of October.There is no cancelled campaignn in month of October.
+    
+    *Deember is the month with least percentage of successfull campaigns.Also,this is the slowest month for our campaign period.Louise did least ie. 75 camapigns in month of December
 
     
 
