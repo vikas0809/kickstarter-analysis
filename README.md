@@ -124,8 +124,11 @@ Following are the outcomes of the analysis
 
 ### What are some limitations of this dataset?
 
+The values of goal amount is very scattered.Range is too wide to do a perform any analysis/see a trend.
 
+The currency amount is not specified i.e. if the goal and pledged amoont is in USD or do we need to convert.
 
+The information provided in launched_at and deadline coloumn is not human readable.We had to perform coversion to make that readable.
 
 
 ### What are some other possible tables and/or graphs that we could create?
