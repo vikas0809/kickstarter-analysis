@@ -10,6 +10,11 @@ The main analysis tool we used is Microsoft Excel. Excel is a powerful tool to p
 
 By the end of this project, we will see various trends and key factors which are visualized by various bar-charts, line-charts and pivot tables to analyze the campaign.
 
+The dataset used for this project is Kickstarter excel file which can be accessed below:
+
+[kickstarter-analysis dataset](https://github.com/vikas0809/kickstarter-analysis/blob/0917109337403a38d69bb443aaa2e95882ec8dda/Kickstarter_Challenge.xlsx)
+
+
 ## Analysis and Challenges
 
 ### Basic structure 
