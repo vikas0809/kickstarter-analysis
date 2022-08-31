@@ -16,16 +16,18 @@ The dataset used for this project is Kickstarter excel file which can be accesse
 
 [kickstarter-analysis dataset](https://github.com/vikas0809/kickstarter-analysis/blob/0917109337403a38d69bb443aaa2e95882ec8dda/Kickstarter_Challenge.xlsx)
 
-
 ## Analysis and Challenges
 
 ### Basic structure 
+
 The overview of the dataset is very boring and unorgainzed.We performed some basic formatting steps to make the tabular data look more presentable and easy to read.
+
 - The first operation we performed was to auto-adjust width and height of the cells to make the data fit in the cell and easily readable.
 
 ![autofill](https://github.com/vikas0809/kickstarter-analysis/blob/342f411fb15f9338225e12c43ed375d9cc5a4d49/Resources/Additional%20Resources/auto%20fit%20cell%20sizze%20and%20width.png)
         
 ### Formatting the spreadsheet 
+
 - The normal cell widht does not capture the entire value of currency amount in spreadsheet.So,we changed the goal and pledged coloumn data type to "scientific"".
 
 ![scientific](https://github.com/vikas0809/kickstarter-analysis/blob/e4b891d7f5d708a6a04d7902ac8c48fbac681ba1/Resources/Additional%20Resources/formattinf%20scientific.png)
@@ -52,13 +54,13 @@ After the formatting and orgainizing,now it is time to crunch some number and cr
 
         =IFERROR(ROUND(E2/L2,2),0)
         
-The challange in this task was divide by zero error.There are some events with 0 backers,so ther result was giving #DIV/0!.We used IFERROR function to return 0 when the error encounters.
+ The challange in this task was divide by zero error.There are some events with 0 backers,so ther result was giving #DIV/0!.We used IFERROR function to return 0 when the error encounters.
         
-- Extracting Year from Date:We created new column for Year.We extraced year from Date started using YEAR function.
+- Extracting Year from Date:</br>We created new column for Year.We extraced year from Date started using YEAR function.
 
         =YEAR(S3)    
         
-- Total Duration of Campaign:We created another coloumn which gives us total duation of the campaign which is differnce between Date Started and Date Ended coloumn.For that,we used DATEDIF function to get number of days for which the campaign ran.
+- Total Duration of Campaign:</br>We created another coloumn which gives us total duation of the campaign which is differnce between Date Started and Date Ended coloumn.For that,we used DATEDIF function to get number of days for which the campaign ran.
 
         =DATEDIF(S2,T2,"d")        
         
@@ -95,7 +97,6 @@ For goal amount between 5000-9999,is successfull and is category plays.
 After that we calculated the percenatge of events and created one line chart to represent the trend.
 
 ![outcomevsgoals](https://github.com/vikas0809/kickstarter-analysis/blob/d83f3d9e6be336a7c4007d9e3c575e9b630cf642/Resources/Outcomes_vs_Goals.png)
-
 
 The issue that i ran into was using COUNTIF function.This function does not work for multiple criterias.We had to use COUNTIFS for that.
 
@@ -137,9 +138,7 @@ The currency amount is not specified i.e. if the goal and pledged amount is in U
 
 The information provided in launched_at and deadline coloumn is not human readable.We had to perform coversion to make that readable.
 
-
 ### What are some other possible tables and/or graphs that we could create?
-
 
 - Average number of backer counts by country
 
