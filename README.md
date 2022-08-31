@@ -1,5 +1,7 @@
 # Kickstarting with Excel
+
 Performing analysis on Louise Kickstarter to uncover various trends
+
 ## Overview of Project
 
 This project performs the data and visual analysis of a crowdfunding project run by up-and-coming playwright, Louise. With a very limited budget of $10,000, she is hesitant about her first fundraising campaign. So, we are helping her to crunch some number and visualize the various trends which help Louise to make her very important decisions to make her campaign successful.
@@ -46,11 +48,11 @@ The challange was second part in this as i was confused that why i am not gettin
 
 After the formatting and orgainizing,now it is time to crunch some number and create some calculated columns which are required to perform our analysis.
 
-- Average Donation:Average donation is calculated ny dividing pledge amount by backer count.We also used ROUND function to round off result by 2 decimal places.
+- Average Donation:</br>Average donation is calculated ny dividing pledge amount by backer count.We also used ROUND function to round off result by 2 decimal places.
 
         =IFERROR(ROUND(E2/L2,2),0)
         
-The challange in this task was divide by zero error.There are some events with 0 backers,so ther result was giving #DIV/0!.We used IFERROR function to give us 0 when the error encounters.
+The challange in this task was divide by zero error.There are some events with 0 backers,so ther result was giving #DIV/0!.We used IFERROR function to return 0 when the error encounters.
         
 - Extracting Year from Date:We created new column for Year.We extraced year from Date started using YEAR function.
 
@@ -131,7 +133,7 @@ Following are the outcomes of the analysis
 
 The values of goal amount is very scattered.Range is too wide to do a perform any analysis/see a trend.
 
-The currency amount is not specified i.e. if the goal and pledged amoont is in USD or do we need to convert.
+The currency amount is not specified i.e. if the goal and pledged amount is in USD or do we need to convert.
 
 The information provided in launched_at and deadline coloumn is not human readable.We had to perform coversion to make that readable.
 
