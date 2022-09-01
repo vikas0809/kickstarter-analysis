@@ -69,7 +69,7 @@ For that we use,Text to column function under the Data tab in excel.
         
 ### Analysis of Outcomes Based on Launch Date.
 
-As per requirement,we did analysis on outcome based om when they are launched in a particular year.We created a pivot table to show total of outcomes divided into different categories by month sorted by Parent Caregory.This particular analysis is for theatre events.
+As per requirement,we did analysis on outcome based on when they are launched in a particular year.We created a pivot table to show total of outcomes divided into different categories by month sorted by Parent Caregory.This particular analysis is for theatre events.
 
 ![theatrepivottable](https://github.com/vikas0809/kickstarter-analysis/blob/d83f3d9e6be336a7c4007d9e3c575e9b630cf642/Resources/Additional%20Resources/Theatre%20outcome%20pivottable.png)
 
