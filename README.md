@@ -1,5 +1,5 @@
 # Kickstarting with Excel
-Performing analysis on Louise Kickstarter to uncover various trends
+Performing analysis on Louise Kickstarter to uncover various trends and helps her projecting and designing future kickstarters.
 ## Overview of Project
 This project performs the data and visual analysis of a crowdfunding project run by up-and-coming playwright, Louise. With a very limited budget of $10,000, she is hesitant about her first fundraising campaign. So, we are helping her to crunch some number and visualize the various trends which help Louise to make her very important decisions to make her campaign successful.
 
